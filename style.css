@@ -1,0 +1,61 @@
+@import url("style2.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+:root {
+	--supra: purple;
+	--bottom-primary: 200px;
+}
+
+.carlito-regular {
+	font-family: "Roboto Mono", monospace;
+	font-weight: 400;
+	font-style: normal;
+}
+
+#title {
+	/* color: #6DE5F2; */
+	color: purple;
+	bottom: 200px;
+	left: 25%;
+	margin: 0;
+	z-index: 1;
+}
+
+#title {
+	/* color: #6DE5F2; */
+	color: var(--supra);
+	bottom: var(--bottom-primary);
+	left: 25%;
+	margin: 0;
+	z-index: 1;
+}
+
+.title {
+	/* color: #6DE5F2; */
+	color: green;
+	bottom: 200px;
+	left: 25%;
+	margin: 0;
+	z-index: 1;
+}
+
+h1 {
+	color: yellow;
+	bottom: 200px;
+	left: 25%;
+	margin: 0;
+	z-index: 1;
+}
+
+.boxes {
+	position: relative;
+	width: 300px;
+	/* Lebar */
+	height: 300px;
+	/* Tinggi */
+	background-color: aqua;
+}
+
+.content {
+	color: red !important;
+}

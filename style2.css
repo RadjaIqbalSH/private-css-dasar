@@ -1,0 +1,15 @@
+@font-face {
+	font-family: "Roboto Mono";
+	src: url("./RobotoMono-Regular.ttf");
+}
+
+.content-item {
+	color: var(--supra);
+	font-family: "Roboto Mono";
+	font-size: 40px;
+	font-weight: 900;
+	font-style: normal;
+	line-height: 200px;
+	letter-spacing: 20px;
+	text-decoration: underline;
+}
