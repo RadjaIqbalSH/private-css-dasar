@@ -1,0 +1,41 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	width: 100vw;
+	height: 100%;
+	display: grid;
+	grid-template-columns: repeat(24, 1fr);
+	grid-template-rows: repeat(24, 1fr);
+	min-height: 100vh;
+	gap: 2px;
+	background-color: black;
+}
+
+.container nav {
+	grid-column: span 24;
+	grid-row: span 2;
+	background-color: yellow;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 20px;
+	padding: 0 24px;
+	color: black;
+}
+.container aside {
+	grid-column: span 8;
+	grid-row: span 22;
+	background-color: green;
+}
+.container section {
+	grid-column: span 16;
+	grid-row: span 20;
+	background-color: white;
+}
+.container footer {
+	grid-column: span 16;
+	grid-row: span 2;
+	background-color: plum;
+}
