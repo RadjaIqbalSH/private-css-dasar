@@ -1,0 +1,164 @@
+.biodata {
+	width: 500px;
+	padding: 20px;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	background-color: bisque;
+}
+
+.biodata input {
+	height: 25px;
+}
+
+.biodata-btn {
+	width: 100px;
+	padding: 12px;
+	margin: 12px auto 0 auto;
+	border-radius: 8px;
+}
+
+.card-photo {
+	padding: 20px;
+}
+
+.btn-click-me {
+	display: block;
+	margin-top: 100px;
+	transition: all 0.2s ease-in-out;
+}
+
+.btn-click-me:hover {
+	background-color: blue;
+}
+.btn-click-me:active {
+	background-color: red;
+	transform: scale(2) rotate(90deg);
+}
+
+.test-input {
+	transition: all 0.2s ease-in-out;
+}
+
+.test-input:focus {
+	background-color: red;
+}
+
+.pseudo p:first-child {
+	color: red;
+}
+.pseudo p:last-child {
+	color: green;
+}
+.pseudo p:nth-child(3) {
+	color: purple;
+}
+
+.accordion {
+	width: 300px;
+	border: 2px solid black;
+}
+
+.accordion-item {
+	margin: 0;
+	border-bottom: 2px solid black;
+}
+.accordion-item:last-child {
+	border: none;
+}
+
+.accordion-no-border {
+	border: none;
+}
+
+.pseudo-element {
+	color: green;
+}
+
+.pseudo-element::before {
+	content: "Prefix";
+	color: red;
+}
+.pseudo-element::after {
+	content: "Sufix";
+	color: purple;
+}
+
+.keren {
+	position: relative;
+	margin: 20px;
+	width: 100px;
+	height: 40px;
+	border-radius: 4px;
+	background-color: aqua;
+	transition: all 0.2s ease-in-out;
+}
+
+.keren::after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 5px;
+	left: 5px;
+	width: 100px;
+	height: 40px;
+	border-radius: 4px;
+	background-color: black;
+	transition: all 0.2s ease-in-out;
+}
+
+.keren:hover::after {
+	top: 1px;
+	left: 1px;
+}
+
+p::first-letter {
+	font-size: 20px;
+}
+p::first-line {
+	font-size: 20px;
+}
+
+::selection {
+	background-color: red;
+	color: yellow;
+}
+
+.input-text::placeholder {
+	color: red;
+}
+
+.desktop {
+	display: none;
+}
+.mobile {
+	display: block;
+}
+
+@media (min-width: 500px) {
+	.desktop {
+		display: block;
+	}
+	.mobile {
+		display: none;
+	}
+}
+
+footer {
+	background-color: red;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: red;
+	width: 100vw;
+}
+
+body {
+	background-color: yellow;
+	height: 100vh;
+	min-height: 100vh;
+}

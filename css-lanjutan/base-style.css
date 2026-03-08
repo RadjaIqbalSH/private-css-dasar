@@ -1,0 +1,84 @@
+input[type="text"] {
+	color: red;
+	padding: 4px 12px;
+}
+
+input[type="number"] {
+	color: green;
+	padding: 4px 12px;
+}
+
+input[type="email"] {
+	color: purple;
+	padding: 4px 12px;
+}
+
+input[type="email"]:invalid {
+	color: red;
+}
+input[type="email"]:valid {
+	color: gold;
+}
+input[type="email"]:disabled {
+	background-color: aquamarine;
+	border: 2px solid red;
+}
+input[type="checkbox"]:checked {
+	accent-color: red;
+}
+
+input[type="password"] {
+	color: orange;
+	letter-spacing: 2px;
+	padding: 4px 12px;
+}
+
+button[type="submit"] {
+	width: fit-content;
+	height: 40px;
+	padding: 0 12px;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	border-radius: 4px;
+	border: 1px solid salmon;
+}
+button[type="button"] {
+	width: fit-content;
+	background-color: beige;
+	height: 40px;
+	padding: 0 12px;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	border-radius: 4px;
+	border: 1px solid salmon;
+}
+
+p[id^="penjelasan"] {
+	color: red;
+	transition: color 0.2s ease-in-out;
+}
+p[id^="penjelasan"]:hover {
+	color: purple;
+}
+
+p[id$="pesawat"] {
+	color: green;
+}
+
+div[class*="card"] {
+	border: 1px solid black;
+	background-color: aquamarine;
+}
+
+div[custom="custom"] {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+
+a[href="http://youtube.com"]
+{
+	color: red;
+}
